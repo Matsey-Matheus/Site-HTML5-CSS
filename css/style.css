@@ -1,0 +1,186 @@
+@import url('https://fonts.googleapis.com/css2?family=Pangolin&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Pangolin', cursive;
+    background-color: #f78faa;
+}
+ul, ol {
+    /* tirar marcações de listas */
+    list-style: none; 
+}
+a {
+    text-decoration: none;
+}
+
+.lyn-page {
+    width: 100%;
+    min-height: 90px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    background-color: #f78faa;
+}
+
+.lyn-tittle {
+    color: #9cecf5;
+    font-size: 50px;
+    transition: .2s;
+}
+.lyn-tittle:hover {
+    font-size: 60px;
+    cursor: pointer;
+}
+
+.lyn-hero {
+    width: 100%;
+    height: 80vh;
+    background-color: #9cecf5;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 0px 20px;
+}
+
+.lyn-hero-title {
+    color: #f78faa;
+    font-size: 8vmin;
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.btn {
+    color: #ffffff;
+    border: 3px solid #f78faa;
+    padding: 10px 20px;
+    background-color: #f78faa;
+    border-radius: 70px;
+    transition: .5s;
+    font-weight: 500px;
+    text-align: center;
+}
+
+.btn:hover {
+    background-color: transparent;
+    color: #f78faa;
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+.lyns {
+    width: 90%;
+    min-height: 100vh;
+    margin: 70px auto;
+    text-align: center;
+    background-color: #f7f5ce;
+    border-radius: 40px;
+}
+
+.lyn-title {
+    margin: 30px 0;
+    color: #f78faa;
+    padding: 60px 0px 0px; 
+    font-size: 30px;
+}
+
+.lyn-elements {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.lyn-item {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin: 20px 0;
+    border-radius: 7px;
+    box-shadow: 43px 44px 61px -49px rgba(0,0,0,1);
+    padding: 30px 10px;
+    box-shadow: 10px 10px 43px -13px rgba(243,243,185,0.88);
+
+    transition: 0.8s;
+    background-color: #f5d6de;
+}
+
+.lyn-item img {
+    width: 100%;
+    border-radius: 7px;
+    transition: .5s;
+}
+
+.lyn-item:hover {
+    transform: scale(1.05);
+    background-color: #faaec2;
+}
+
+.lyn-item img:hover {
+    transform: scale(1.2);
+}
+
+.lyn-item h3 {
+    margin: 10px 0 20px;
+}
+
+.lyn-item p {
+    text-align: left;
+    font-size: 15px;
+    width: 90%;
+    margin-bottom: 20px;
+}
+
+footer {
+    width: 100%;
+    height: 20vh;
+    background-color: #9cecf5;
+    color: #f78faa;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+footer h3 {
+    font-size: 28px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.redes a {
+    color: #f78faa;
+    margin-right: 10px;
+    font-size: 28px;
+    transition: .5s;
+}
+
+.redes a:hover {
+    color: #fd5380;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media(max-width: 600px) {
+    .lyn-tittle {
+        font-size: 40px;
+    }
+}

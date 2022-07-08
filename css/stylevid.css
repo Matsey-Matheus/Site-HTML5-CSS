@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Pangolin&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Pangolin', cursive;
+    background-color: #f78faa;
+}
+ul, ol {
+    /* tirar marcações de listas */
+    list-style: none; 
+}
+a {
+    text-decoration: none;
+}
+
+.lyn-page {
+    width: 100%;
+    min-height: 90px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    background-color: #9cecf5;
+}
+
+.lyn-tittle {
+    color: #f78faa;
+    font-size: 50px;
+    transition: .2s;
+}
+.lyn-tittle:hover {
+    font-size: 60px;
+    cursor: pointer;
+}
+
+.lyns {
+    width: 90%;
+    min-height: 100vh;
+    margin: 70px auto;
+    text-align: center;
+    background-color: #f5d6de;
+    border-radius: 40px;
+}
+
+.lyn-title {
+    margin: 30px 0;
+    color: #f78faa;
+    padding: 60px 0px 0px; 
+    font-size: 30px;
+    transition: .5s;
+}
+
+.lyn-title:hover {
+    transform: scale(1.1);
+}
+
+.lyn-elements {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.lyn-item {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin: 20px 0;
+    border-radius: 7px;
+    box-shadow: 43px 44px 61px -49px rgba(0,0,0,1);
+    padding: 30px 10px;
+    box-shadow: 10px 10px 43px -13px rgba(243,243,185,0.88);
+    background-color: antiquewhite;
+    transition: .5s;
+}
+
+.lyn-item video {
+    width: 100%;
+    max-height: 35vh;
+    border-radius: 7px;
+}
+
+.lyn-item:hover {
+    transform: scale(1.05);
+    background-color: #f78faa;
+}
+
+
+
+.lyn-item h3 {
+    margin: 10px 0 20px;
+}
+
+.lyn-item p {
+    text-align: left;
+    font-size: 15px;
+    width: 90%;
+    margin-bottom: 20px;
+}
+
+footer {
+    width: 100%;
+    height: 20vh;
+    background-color: #9cecf5;
+    color: #f78faa;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+footer h3 {
+    font-size: 28px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.redes a {
+    color: #f78faa;
+    margin-right: 10px;
+    font-size: 28px;
+    transition: .5s;
+}
+
+.redes a:hover {
+    color: #fd5380;
+}
